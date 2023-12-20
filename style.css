@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+height: 100%;
+background-color: #67d1ff;
+color: #ffffff;
+font-family: "MuseoModerno", Helvetica;
+
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+  }
+header, main, footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height:120px;    
+    margin-bottom: 50px;
+}
+main{
+    padding-bottom: 100px;
+}
+footer{   
+    margin: -10px auto 0;
+    position: relative;
+    height: 100px;
+}
+
+.footer__block {
+    padding-top: 16px;
+    display: inline-block;
+    width: 335px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer__icons {
+    text-align: right;
+    margin: -45px auto 0;
+}
+
+.footer__img {
+    width: 50px;
+    margin: 5px;
+}
+.yellow{
+    color: #FFF500;
+    text-shadow: #FFF500 0px 0px 25px;
+}
+#mainnav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+#mainnav li {
+    display: inline;
+    margin: 40px;
+}
+#mainnav a {
+    text-decoration: none;
+    color: white;
+}
+#mainnav a:hover {
+    text-decoration: underline;
+    color: #FFF500;
+    text-shadow: #d4cd00 0px 0px 25px;
+}
+#mainnav li.active a {
+    font-weight: bold;
+    color: #FFF500;
+    text-shadow: #d4cd00 0px 0px 25px;
+}
+#mainnav {
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 100px;
+    font-size: 24px;
+    float: right;
+}
+#logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+}
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 20px;
+}
+.screen1{
+   margin-bottom: 250px;
+}
+.text1-screen1{
+    font-size: 70px;
+    color: #FFF500;
+    text-shadow:#ddd601 0px 0px 10px;
+    margin-top: 50px;
+}
+.text2-screen1{
+    font-size: 20px;
+}
+.image{
+    width: 500px;
+    margin-right: 40px;
+    float: right;
+}
+.screen2 {
+    background-image: url(img/Rectangle5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 50px;
+    height: 650px;
+}
+.text1-screen2{
+    font-size: 30px;
+    text-align: center;
+    color: #FFF500;
+    text-shadow:#ddd601 0px 0px 10px;
+    margin-bottom: 50px;
+}
+.text2-screen2{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 600px;
+    margin-top: 250px;
+
+}
+.img-screen2{
+    float: left;
+    margin-bottom: 100px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: -200px;
+}
+.screen3{
+    padding: 60px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.text1-screen3{
+    font-size: 30px;
+    color: #FFF500;
+    text-shadow:#ddd601 0px 0px 10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.img-screen3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.img1-screen3{
+    border-radius: 20px;
+    border: 4px solid;
+    border-color:#FFF500;
+    box-shadow: #ddd601 1px 1px 20px;
+}
+.img2-screen3{
+    border-radius: 20px;
+    border: 4px solid;
+    border-color:#FFF500;
+    box-shadow: #ddd601 1px 1px 20px;;
+}
+.screen4 {
+    background-image: url(img/Rectangle5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.text-screen4{
+    text-align: left;
+}
+.text1-screen4{
+    font-size: 40px;
+    color: #FFF500;
+    text-shadow:#ddd601 0px 0px 10px;
+}
+.img-screen4{
+    border: 4px solid;
+    border-color:#FFF500;
+    box-shadow: #ddd601 1px 1px 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-top: 50px;
+}
+#contact-form input[type="text"]{
+    height: 35px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: white solid 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:"MuseoModerno", Helvetica;
+    box-shadow: #00000063 0px 2px 5px;
+  }
+  #contact-form input[type="email"]{
+    height: 35px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: white solid 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:"MuseoModerno", Helvetica;
+    box-shadow: #00000063 0px 2px 5px;
+  }
+  #contact-form input[type="tel"]{
+    height: 35px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: white solid 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:"MuseoModerno", Helvetica;
+    box-shadow: #00000063 0px 2px 5px;
+  }
+  
+  #contact-form select{
+    height: 45px;
+    width: 314px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: white solid 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:"MuseoModerno", Helvetica;
+    box-shadow: #00000063 0px 2px 5px;
+  }
+  
+  .form {
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contact-form label{
+    font-size: 25px;
+    font-style: italic; 
+    font-family:"MuseoModerno", Helvetica;
+    font-weight: bold;
+  }
+  #contact-form textarea{
+    height: 150px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: white solid 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:"MuseoModerno", Helvetica;
+  }
+  #contact-form input[type="submit"]{
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    font-family:"MuseoModerno", Helvetica;
+    font-size: 20px;
+    color: white;
+    border: solid 0px;
+    background-color: #00B0FF;
+    border-radius: 10px;
+    box-shadow: #00000063 0px 2px 5px;
+  }
+  
+  #contact-form input[type="submit"]:hover{
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    font-family:"MuseoModerno", Helvetica;
+    font-size: 20px;
+    color: white;
+    border: solid 0px;
+    background-color: #0051ca;
+    border-radius: 10px;
+    box-shadow: #00000063 0px 2px 5px;
+  }

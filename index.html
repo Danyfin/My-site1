@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SiteMaker</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a id="logo" href="index.html"><span class="yellow">Site</span>Maker</a>
+            <nav id="mainnav">
+                <ul>
+                    <li><a href=#1><b>Обо мне</b></a></li>
+                    <li><a href=#2><b>Портфолио</b></a></li>
+                    <li><a href=#3><b>Связаться со мной</b></a></li>
+                </ul>
+            </nav>  
+        </header>
+        <main>
+            <div class="screen1">
+                <img class="image" src="img/undraw_static_website_re_x70h1.png" alt="">
+                <h1 class="text1-screen1"><b>Сверстаем вам любой сайт</b></h1>
+                <p class="text2-screen1">Воплащаем ваши идеи и фантазии в <br> реальность за короткий срок</p>
+            </div>
+                <div class="screen2" id="1">
+                    <h2 class="text1-screen2">ОБО МНЕ</h2>
+                    <div class="text-screen2">
+                      <img class="img-screen2" src="img/Group2.png" alt="">
+                      <p class="text2-screen2">
+                        Я, Голендухин Даниил <br> верстальщик на HTML и CSS. <br> Имею стаж больше 5 лет и <br> сотрудничество с большими <br> компаниями.
+                      </p>
+                    </div>
+                </div>
+            <div class="screen3" id="2">
+                <h2 class="text1-screen3">ПОРТФОЛИО</h2>
+                <div class="img-screen3">
+                    <img class="img1-screen3" src="img/image4.png" alt="" width="500">
+                    <img class="img2-screen3" src="img/image3.png" alt="" width="500">
+                </div>
+            </div>
+                <div class="screen4" id="3">
+                    <div class="text-screen4">
+                        <p class="text1-screen4"><b>Свяжись со мной <br> и закажи сайт</b></p>
+                        <p class="text2-screen4">
+                          Выберите сайт, заполните данные и<br> наш менеджер свяжется с вами для<br> обсуждения заказа
+                        </p>
+                    </div>
+
+                    
+                   
+                    <div class="form">
+                        <form id="contact-form" action="sdsd">
+                            <div class="form_item">
+                                <select name="topic" id="topic">
+                                    <option value="0">Выберите тему </option>
+                                    <option value="1">Заказать услугу</option>
+                                    <option value="2">Оставить отзыв/замечание</option>
+                                    <option value="3">Предложить сотрудничество</option>
+                                    <option value="4">Другое</option>
+                                </select>
+                            </div>
+                            <div class="form_item">
+                                <input name="name" id="name" type="text" required placeholder="Введите ваше имя!">
+                            </div>
+                            <div class="form_item">
+                                <input type="email" name="mail" id="mail" required placeholder="Введите вашу электронную почту!">
+                            </div>
+                           
+                            <div class="form_item">
+                                <textarea name="text" id="text" required placeholder="Введите сообщение!" ></textarea>
+                            </div>
+                            <div class="form_item">
+                                <input type="submit">
+                            </div>
+                        </form> 
+                    </div>
+                    <img class="img-screen4" src="img/windows-MYomVPpR5FU-unsplash2.png" alt="">
+                </div>
+        </main>
+        <footer>
+            <p class="footer__block">+7 (907) 443 53 23 <br>+7 (907) 443 53 23</p>
+            <p class="footer__block">Мы на связи с вами</p>
+            <div class="footer__icons">
+            <a href="https://vk.com/" target="_blank"><img src="img/ok.png" alt="" class="footer__img"></a>
+            <a href="https://vk.com/" target="_blank"><img src="img/mailru.png" alt="" class="footer__img"></a>
+            <a href="https://vk.com/" target="_blank"><img src="img/vk.png" alt="" class="footer__img"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
